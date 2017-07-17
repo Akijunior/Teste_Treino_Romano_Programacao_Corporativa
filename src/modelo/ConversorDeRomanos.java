@@ -14,7 +14,15 @@ public class ConversorDeRomanos {
 	public double ValidadorDeLetras(String palavra) {
 		
 		for (int i = 0; i < palavra.length; i++) {
-			if (palavra[i]i )
+			if (palavra[i] )
+			
+		}
+	}
+	
+	public double NaoPermitirRepeticoesDeLetrasAlemDasPermitidas(String palavra) {
+		
+		for (int i = 0; i < palavra.length; i++) {
+			if (palavra[i] )
 			
 		}
 	}
